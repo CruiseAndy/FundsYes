@@ -1,0 +1,16 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../../manager/sass/common";
+
+.login-banner-main {
+    margin: -20px -30px 40px;
+    overflow: hidden;
+    .return-login {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}

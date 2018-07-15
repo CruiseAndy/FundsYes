@@ -1,0 +1,44 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+@import "../../../manager/sass/common";
+
+.banner-main {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-main {
+    left: 0px;
+    position: relative;
+    box-sizing: border-box;
+    img {
+        width: 768px;
+        height: 480px;
+        position: relative;
+        left: 50%;
+        margin-left: -384px;
+    }
+    h3 {
+        margin: 0 0 95px 0;
+        font-weight: 500;
+        text-shadow: 2px 2px 2px #777777;
+        p {
+            line-height: 50px;
+            margin: 0 0 10px;
+        }
+    }
+    .carousel-caption {
+        bottom: 0px;
+    }
+}
+
+.btn-red {
+    @include Btn-Red ( 20px, 75%, '', 10px, '', 0 );
+}
+
+.btn-light {
+    @include Btn-Light ( 20px, 75%, 0, 10px, 0 );
+    background-color: rgba(253, 253, 253, 0.8);
+}

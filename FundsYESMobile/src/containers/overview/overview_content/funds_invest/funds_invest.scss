@@ -1,0 +1,50 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../../../manager/sass/common";
+ 
+ .funds-invest-main {
+     @include Scroll-Table-Wrap;
+     table {
+         @include Common-Table;
+         thead > tr > th {
+             @include Funds-Table-Title;
+         }
+         thead > tr > td {
+             @include Common-Td;
+             background-color: #fffae6;
+         }
+         thead > tr > td:nth-child(1), td:nth-child(2) {
+             text-align: left;
+         }
+         thead, tbody > tr > td:nth-child(3) {
+             text-align: right;
+         }
+         thead, tbody > tr > td:nth-child(4) {
+             text-align: center;
+         }
+         tbody > tr > td {
+             @include Common-Td;
+             text-align: left;
+         }
+         .img-up-down {
+             width: 32px;
+             vertical-align: middle;
+         }
+         .detail-table > tbody > tr > td:nth-child(1) {
+             background-color: #F2F2F3;
+             text-align: center;
+         }
+         .detail-hide {
+             width: 100%;
+             display: none;
+         }
+         .ups {
+             @include Num-Up-Color;
+         }
+         .downs {
+             @include Num-Down-Color;
+         }
+     }
+ }

@@ -1,0 +1,19 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+@import "../../manager/sass/common";
+
+.home-page {
+    @include Main-Page;
+}
+
+.home-container {
+    @include Main-Container;
+}
+
+// a {
+//     text-decoration: none;
+//     background-color: transparent;
+//     color: #757575;
+// }

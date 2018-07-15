@@ -1,0 +1,161 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+@mixin Main-Page {
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+}
+
+@mixin Main-Container {
+    padding: 20px 15px;
+    background-color: white;
+    overflow: hidden;
+}
+
+@mixin Btn-Red ($fontSize: 14px,$width: 50%, $radius: 0, $padding: 0,
+                $margin: 0, $border: 1px solid #5d1c19) {
+    width: $width;
+    font-size: $fontSize;
+    border-radius: $radius;
+    border: $border;
+    padding: $padding;
+    margin: $margin;
+    color: white;
+    text-align: center;
+    background-color: #E7634F;
+}
+
+@mixin Btn-Light ($fontSize: 14px,$width: 50%, $radius: 0, $padding: 0,
+                $margin: 0, $border: 1px solid #E7634F) {
+    width: $width;
+    font-size: $fontSize;
+    border-radius: $radius;
+    border: $border;
+    padding: $padding;
+    margin: $margin;
+    color: #E7634F;
+    text-align: center;
+    background-color: white;
+}
+
+@mixin Input-Box ($width, $txtMargin, $txtFontWeight, $iconMargin, $vertical: -2px) {
+    width: $width;
+    h3 {
+        margin: $txtMargin;
+        font-weight: $txtFontWeight;
+        .glyphicon {
+            margin: $iconMargin;
+            vertical-align: $vertical;
+        }
+    }
+}
+
+@mixin Input-Wrap ($fontSize, $width, $height, $padding, $borderRadius, $border: 1px solid #c0c0c0) {
+    font-size: $fontSize;
+    input {
+        width: $width;
+        height: $height;
+        border: $border;
+        border-radius: $borderRadius;
+        padding: $padding;
+    }
+}
+
+@mixin Scroll-Table-Wrap {
+    font-size: 16px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+@mixin Funds-Table-Title {
+    font-size: 24px;
+    text-align: center;
+    padding: 6px 8px;
+    border: 1px solid #d9d9d9;
+    background-color: #dff0d8;
+}
+
+@mixin Common-Table {
+    width: 100%;
+    min-width: 345px;
+    text-align: right;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@mixin Common-Td {
+    border: 1px solid #d9d9d9;
+    line-height: 1.8rem;
+    padding: 8px 8px;
+}
+
+@mixin Num-Up-Color {
+    color: #FF0000;
+}
+
+@mixin Num-Down-Color {
+    color: #00b200;
+}
+
+@mixin Notice-Block {
+    background-color: #fffcd1;
+    padding: 10px 20px;
+    color: #808080;
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid #e1dda9;
+    border-radius: 5px;
+    div {
+        font-size: 18px;
+        line-height: 3.0rem;
+    }
+    ol {
+        font-size: 14px;
+        padding-left: 0;
+        margin-bottom: 10px;
+        li {
+            margin-left: 20px;
+            padding-bottom: 10px;
+        }
+    }
+    a {
+        color: #337ab7;
+    }
+    .red-str {
+        color: red;
+    }
+}
+
+@mixin Step-Precess {
+    width: 100%;
+    margin: 20px 0;
+    .clear-fix {
+        clear: both;
+    }
+    .steps {
+        width: calc(100% / 4);
+        height: 15px;
+        display: inline-block;
+    }
+    .steps:nth-child(1) {
+        background-color: #707070;
+    }
+    .steps:nth-child(2) {
+        background-color: #909090;
+    }
+    .steps:nth-child(3) {
+        background-color: #B0B0B0;
+    }
+    .steps:nth-child(4) {
+        background-color: #D0D0D0;
+    }
+    .steps.done {
+        background-color: #b4d232;
+    }
+}
+
+

@@ -1,0 +1,101 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../../../manager/sass/common";
+
+.description-main {
+    @include Scroll-Table-Wrap;
+    h1 {
+        font-size: 28px;
+    }
+    .description-title {
+        font-size: 24px;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .description-title > div:nth-child(1) {
+        text-align: center;
+        padding: 12px;
+        font-weight: 400px;
+        border: 1px solid #d9d9d9;
+        background-color: #dff0d8;
+    }
+    .description-title > div:nth-child(2) {
+        font-size: 20px;
+        padding: 12px;
+        border: 1px solid #d9d9d9;
+        background-color: white;
+    }
+    .buy-btn-wrap {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        button {
+            font-size: 22px;
+            line-height: 100%;
+            width: 232px;
+            background-color: #db524c;
+            border: 1px solid #5d1c19;
+            border-radius: 10px;
+            padding: 20px 0;
+            color: white;
+        }
+    }
+    .period-invest-funds-list {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .period-invest-funds-list > thead > tr > th {
+        text-align: center;
+        background-color: #e9e9e9;
+        padding: 6px;
+        border: 1px solid #d9d9d9;
+    }
+    .period-invest-funds-list > tbody > tr > td {
+        padding: 12px;
+    }
+    .img-up-down {
+        width: 32px;
+        vertical-align: middle;
+    }
+    thead > tr > td {
+        @include Common-Td;
+        background-color: #fffae6;
+    }
+    thead > tr > td:nth-child(1) {
+        text-align: left;
+    }
+    thead, tbody > tr > td:nth-child(2) {
+        text-align: center;
+    }
+    thead, tbody > tr > td:nth-child(3) {
+        text-align: center;
+    }
+    tbody > tr > td {
+        @include Common-Td;
+        font-size: 18px;
+        text-align: left;
+    }
+    .detail-hide {
+        width: 100%;
+        display: none;
+    }
+    .detail-table {
+        width: 100%;
+    }
+    .detail-table > thead > tr > td {
+        background-color: #F2F2F3;
+        text-align: center;
+    }
+    .detail-table > tbody > tr > td {
+        padding: 12px;
+    }
+    .detail-table > tbody > tr > td:nth-child(1) {
+        text-align: center;
+    }
+    .detail-table > tbody > tr > td:nth-child(2) {
+        text-align: right;
+    }
+}

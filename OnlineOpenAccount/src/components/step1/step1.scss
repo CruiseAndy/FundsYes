@@ -1,0 +1,17 @@
+/* 
+ * Created by kevin in 2018/01/03
+ */
+
+ @import '../common.scss';
+
+.itemTitle {
+    font-size: 18px;
+
+    span:nth-child(1) {
+        color: red;
+    }
+}
+
+.btnStep1 {
+    @include Common-BtnStep;
+}

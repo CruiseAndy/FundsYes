@@ -1,0 +1,92 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../../manager/sass/common";
+
+.fundsinfo-main {
+    padding: 30px 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.product-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0;
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+        background-color: #f6cbc5;
+        padding: 15px 0;
+        color: #be5252;
+    }
+    .top {
+        background-color: #F1F1F1;
+        padding: 12px 25px 25px;
+        .funds-name {
+            margin: 15px 0 22px;
+            a {
+                display: inline-block;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 25px;
+                text-decoration: underline;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 16px;
+                .rate-star {
+                    padding-left: 10px;
+                    span {
+                        color: #f8b623;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-red {
+        @include Btn-Red ( 20px, 54%, 0, 10px, 0, 0 );
+    }
+
+    .scroll-tab-wrap {
+        width: 100%;
+        overflow: hidden;
+        border-left: 2px solid #F1F1F1;
+        border-right: 2px solid #F1F1F1;
+        .imcome-rate-wrap {
+            width: 16.6%;
+            line-height: 30px;
+            float: left;
+            text-align: center;
+            .time {
+                background-color: #e9e9e9;
+            }
+            .ROI {
+                color: #db1515;
+            }
+        }
+    }
+    .bottom {
+        background-color: white;
+        text-align: left;
+        padding: 10px;
+        border: 2px solid #F1F1F1;
+        .btn-tag {
+            font-size: 13px;
+            color: #E7634F;
+            border: 1px solid #E7634F;
+            border-radius: 20px;
+            padding: 1px 4px;
+            margin: 0px 3px 5px 3px;
+        }
+        .comment {
+            font-size: 9px;
+            margin-top: 16px;
+            margin-bottom: 0px!important;
+            text-align: left;
+        }
+    }
+}

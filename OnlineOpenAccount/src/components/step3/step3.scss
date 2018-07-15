@@ -1,0 +1,32 @@
+/* 
+ * Created by kevin in 2018/01/11
+ */
+
+ @import '../common.scss';
+
+ .btnPassStep {
+     @include Common-BtnStep;
+     margin: 20px 0;
+ }
+
+ .sectionTitle {
+     font-size: 20px;
+     color: #867955;
+     font-weight: bold;
+     margin-top: 20px;
+ }
+
+ .sectionSubTitle {
+     font-size: 18px;
+     padding-top: 10px;
+     display: inline-block;
+     width: calc(100% / 2);
+ }
+
+ .btnStep3 {
+     @include Common-BtnStep (
+        $height: 48px,
+        $fontSize: 24px,
+        $count: 2
+     );
+ }

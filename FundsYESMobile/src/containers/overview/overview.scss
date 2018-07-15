@@ -1,0 +1,14 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../manager/sass/common";
+
+.overview-main {
+    @include Main-Page;
+}
+
+.overview-container {
+    @include Main-Container;
+    margin-top: 60px;
+}

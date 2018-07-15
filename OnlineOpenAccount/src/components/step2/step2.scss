@@ -1,0 +1,78 @@
+/* 
+ * Created by kevin in 2018/01/10
+ */
+
+ @import '../common.scss';
+
+.evaluateExplan {
+    span {
+        font-size: 16px;
+    }
+
+    span:nth-child(2) {
+        color: red;
+    }
+}
+
+.btnStartEvaluate {
+    @include Common-BtnStep;
+}
+
+.topicTitle {
+    p {
+        font-size: 30px;
+    }
+
+    p:nth-child(2) {
+        font-size: 14px;
+    }
+}
+
+.btnTopicStepSpecial {
+    width: 100% / 2 - 1.5;
+    height: 0;
+    border: 0;
+}
+
+.btnTopicStep {
+    @include Common-BtnStep($count: 2);
+}
+
+.iconTestScore {
+    width: calc(100% / 3 - 28px);
+    height: 37px;
+    text-align: center;
+    background: #ccc;
+    color: white;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 37px;
+    display: inline-block;
+    margin: 0 14px;
+}
+
+.iconTestScore_active {
+    background: #b4d232;
+}
+
+.actNotice {
+    padding: 12px;
+    border: 3px solid #d3212a;
+    border-radius: 14px;
+
+    h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    label > input {
+        width: 25px;
+        height: 25px;
+        vertical-align: -2px;
+    }
+}

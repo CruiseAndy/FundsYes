@@ -1,0 +1,48 @@
+@import "../../sass/common.scss";
+
+.hearder {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+.logo {
+    text-align: center;
+    img {
+        width: 180px;
+        height: 30px;
+        margin: 13px;
+    }
+    hr {
+        margin: 0px;
+    }
+}
+
+.slider-bar {
+    text-align: center;
+    width: 68px;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    i {
+        margin: 13px 12px;
+    }
+}
+
+.slider-menu {   
+    background-color: white;
+    min-width: 249px;
+    max-width: 265px;
+    height: 516px;
+    overflow: scroll;
+    left: 0px;
+    top: 60px;
+    padding: 15px;
+    position: fixed;
+    border: 1px solid #FFFFFF;
+    box-shadow: 2px 5px 6px 1px #888888;
+    display: none;
+}

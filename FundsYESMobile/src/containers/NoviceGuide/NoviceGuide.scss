@@ -1,0 +1,42 @@
+@import "../../manager/sass/common";
+
+
+.login-main{
+  @include Main-Page ;
+  padding : 20px;
+}
+
+.headBlock {
+  margin-top: 40px;
+  display: inline-block;
+  font-size: 28px;
+  border-bottom: 3px solid #B72111;
+}
+
+.h2Title {
+  margin-left: 60px;
+  text-indent: -60px;
+}
+
+.pContext {
+
+  padding-left: 42px;
+  padding-right: 10px;
+}
+
+.liTitle > span{
+  font-weight: bold;
+}
+
+table.tableAttr {
+ border: 1px solid #444;
+
+}
+
+table.tableAttr tr {border-bottom: 1px solid #444}
+
+table.tableAttr td{
+  border-right: 1px solid #444;
+  border-bottom: 1px solid #444;
+  padding: 2px;
+}

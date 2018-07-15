@@ -1,0 +1,33 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+@import "../../../manager/sass/common";
+
+.annotation-main {
+    background-color: #F5F5F5;
+    .imgRSP-wrap {
+        margin-top: 10px;
+    }
+    .annotation-wrap {
+        padding: 32px 0px 0px 30px;
+        h4 {
+            color: #000;
+            font-size: 20px;
+            margin-left: -30px;
+            p {
+                font-weight: bold;
+                b {
+                    font-weight: bold;
+                }
+                a {
+                    color: inherit;
+                }
+            }
+        }
+        img {
+            height: 162px;
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,386 @@
+/* 
+ * Created by kevin in 2018/03/13
+ */
+
+* {
+    font-family: 'Microsoft JhengHei';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.web-mode {
+    display: block;
+}
+
+.mobile-mode {
+    display: none;
+}
+
+.img-check {
+    margin-right: 10px;
+}
+
+.contact-mode {
+    margin: 70px 0;
+    vertical-align: middle;
+
+    img {
+        margin: 0 40px 20px 40px;
+        width: calc( 100% / 4 );
+        min-width: 280px;
+        height: auto;
+    }
+
+    span {
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+.activity-title {
+    position: absolute;
+    left: calc( 100% / 10 );
+    top: 130px;
+    font-weight: 800;
+    color: black;
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 55px;
+
+        span {
+            color: #fb7f25;
+        }
+    }
+}
+
+.section1 {
+    background: linear-gradient(rgba(249, 223, 205, 0.4), rgba(232, 238, 196, 1));
+    text-align: center;
+    padding: 60px 0;
+
+    div {
+        margin: 10px 0;
+
+        img {
+            margin: 40px;
+        }
+        span {
+            font-size: 24px;
+            font-weight: 800;
+        }
+    }
+}
+
+.section2 {
+    background-color: #f6f9e5;
+    padding: 60px;
+    text-indent: -3em;
+
+    img {
+        padding-bottom: 10px;
+    }
+
+    .user-image {
+        width: 45%;
+        padding: 10px 10px 10px 0;
+        text-align: center;
+        vertical-align: top;
+        display: inline-block;
+    }
+    
+    .user-text {
+        width: 55%;
+        padding: 20px 0 0 50px;
+        text-align: left;
+        display: inline-block;
+    }
+
+    h1 {
+        color: #fb7f25;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    h2 {
+        margin: 40px 0;
+        font-size: 30px;
+        font-weight: 800;
+    }
+}
+
+.section3 {
+    background-color: #f6f9e5;
+    padding: 60px;
+    text-align: center;
+
+    h1 {
+        color: #fb7f25;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    img {
+        cursor: pointer;
+        margin: 50px 30px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+}
+
+.section4 {
+    padding: 60px;
+    text-align: center;
+
+    h1 {
+        color: #fb7f25;
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .funds-block {
+        margin: 30px 0 50px 0;
+
+        img {
+            width: calc( 70% / 4 );
+            min-width: 180px;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .activity-title {
+        top: 100px;
+        font-weight: 800;
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            font-size: 40px;
+
+            span {
+                color: #fb7f25;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .activity-title {
+        top: 80px;
+        font-weight: 800;
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 40px;
+
+            span {
+                color: #fb7f25;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .activity-title {
+        top: 70px;
+        font-weight: 800;
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 30px;
+
+            span {
+                color: #fb7f25;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .web-mode {
+        display: none;
+    }
+
+    .mobile-mode {
+        display: block;
+    }
+
+    .activity-title {
+        position: inherit;
+        font-weight: 800;
+        background-color: #fcf2e9;
+        text-align: center;
+        padding: 1px 0;
+    
+        h1 {
+            font-size: 40px;
+        }
+    
+        h2 {
+            font-size: 30px;
+    
+            span {
+                color: #fb7f25;
+            }
+        }
+    }
+
+    .img-check {
+        width: 25px;
+        height: 35px;
+    }
+
+    .contact-mode {
+        margin: 40px 0;
+        vertical-align: middle;
+        text-align: center;
+    
+        img {
+            margin: 10px;
+            width: 250px;
+            height: 80px;
+        }
+    
+        span {
+            font-size: 20px;
+        }
+    }
+
+    .bookmark-left {
+        img {
+            margin: 3px 0;
+            width: 50px;
+            height: auto;
+        }
+    }
+
+    .bookmark-right {
+        img {
+            width: 88px;
+            height: auto;
+        }
+    }
+
+    .section1 {
+        padding: 0;
+        
+        div {
+            margin: 20px 0;
+
+            img {
+                margin: 10px;
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+    .section2 {
+        padding: 0;
+        text-indent: -3em;
+        padding-left: 3em;
+        padding-bottom: 10px;
+    
+        .user-image {
+            width: 100%;
+            padding: 0;
+            text-align: center;
+            display: block;
+        }
+        
+        .user-text {
+            width: 100%;
+            padding: 0 10px;
+            text-align: left;
+            display: block;
+        }
+    
+        h1 {
+            color: #fb7f25;
+            font-size: 30px;
+            text-align: center;
+        }
+    
+        h2 {
+            margin: 20px 0;
+            font-size: 20px;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .section3 {
+        background-color: #f6f9e5;
+        padding: 20px;
+        text-align: center;
+    
+        h1 {
+            color: #fb7f25;
+            font-size: 40px;
+        }
+    
+        h2 {
+            font-size: 30px;
+        }
+    
+        img {
+            cursor: pointer;
+            margin: 20px 3px;
+        }
+    
+        p {
+            font-size: 20px;
+        }
+
+        .consum-behavior-img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .section4 {
+        padding: 30px;
+        text-align: center;
+    
+        h1 {
+            color: #fb7f25;
+            font-size: 40px;
+        }
+    
+        .funds-block {
+            margin: 20px 0 40px 0;
+
+            img {
+                width: 200px;
+                height: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../../../manager/sass/common";
+
+.trans-currency-main {
+    .scroll-table-wrap {
+        @include Scroll-Table-Wrap;
+        table {
+            @include Common-Table;
+            thead {
+                vertical-align: middle;
+                th {
+                    @include Funds-Table-Title;
+                }
+            }
+            .thead-currency {
+                text-align: left;
+                min-width: 56px;
+            }
+            thead > tr > td {
+                @include Common-Td;
+                background-color: #fffae6;
+            }
+            .tbody-currency {
+                text-align: left;
+                min-width: 56px;
+                background-color: #f2f2f2;
+            }
+            tbody > tr > td {
+                @include Common-Td;
+                background-color: white;
+            }
+            .tfoot-currency {
+                text-align: left;
+                min-width: 56px;
+            }
+            tfoot > tr > td {
+                @include Common-Td;
+                background-color: #e1e1e1;
+                padding: 18px 8px;
+            }
+            .assets {
+                font-size: 18px;
+                color: #f26400;
+            }
+            .ups {
+                @include Num-Up-Color;
+            }
+            .downs {
+                @include Num-Down-Color;
+            }
+        }
+    }
+}

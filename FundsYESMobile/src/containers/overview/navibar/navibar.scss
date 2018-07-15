@@ -1,0 +1,37 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+@import "../../../manager/sass/common";
+
+.navibar-main {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    z-index: 999;
+    box-shadow: 0 -1px 5px #dfdfdf;
+    background-color: white;
+    li {
+        font-size: 20px;
+        float: left;
+        
+        width: calc(100% / 3);
+        list-style-type: none;
+        border: 1px solid #e1e1e1;
+        .active {
+            color: #3d3d3d;
+            font-weight: 400;
+            background-color: #fffcd9;
+        }
+        a {
+            padding: 15px 0 10px;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            height:100%;
+        }
+    }
+}

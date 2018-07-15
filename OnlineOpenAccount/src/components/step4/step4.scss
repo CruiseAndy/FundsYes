@@ -1,0 +1,20 @@
+/* 
+ * Created by kevin in 2018/01/16
+ */
+
+ @import '../common.scss';
+
+.wrapAllData {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    
+    p {
+        font-size: 18px;
+    }
+}
+
+.btnStep4Place {
+    @include Common-BtnStep($count: 2);
+}

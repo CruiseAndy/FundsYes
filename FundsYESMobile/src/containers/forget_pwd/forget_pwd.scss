@@ -1,0 +1,13 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+ @import "../../manager/sass/common";
+
+.forget-pwd-main {
+    @include Main-Page;
+}
+
+.forget-pwd-container {
+    @include Main-Container;
+}

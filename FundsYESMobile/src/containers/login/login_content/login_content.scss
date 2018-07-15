@@ -1,0 +1,43 @@
+/* 
+ * Created by kevin in 2017/10/29
+ */
+
+@import "../../../manager/sass/common";
+
+.login-content-main {
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .input-box {
+        @include Input-Box(100%, 20px 0 10px, 400, 10px);
+    }
+    .glyphicon {
+        margin-right: 10px;
+        vertical-align: -2x;
+    }
+    .inpur-wrap {
+        @include Input-Wrap(20px, 100%, 50px, 0 10px, 5px);
+    }
+    .btn {
+        font-size: 25px;
+        width: 100%;
+        margin: 50px 0 30px;
+        background-color: #db524c;
+        border: 1px solid #5d1c19;
+        border-radius: 10px;
+        color: white;
+        padding: 20px 0;
+    }
+    .help-info-wrap {
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        .help-info {
+            width: 40%;
+            margin: 0 15px;
+        }
+    }
+}

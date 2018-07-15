@@ -1,0 +1,64 @@
+{
+	"會員管理":
+	[
+		{
+			"title": "立即開戶",
+			"url": "https://www.fundsyes.com/Account/open_notice.aspx"
+		},
+		{
+			"title": "會員登入",
+			"url": "https://www.fundsyes.com/Account/open_notice.aspx"
+		}
+	],
+	"line1": [],
+	"基金產品":
+	[
+		{
+			"title": "基金總覽",
+			"url": "https://www.fundsyes.com/Fund/Catalogue.aspx"
+		},
+		{
+			"title": "基金搜尋",
+			"url": "https://www.fundsyes.com/Fund/Catalogue_new.aspx"
+		},
+		{
+			"title": "基金公司",
+			"url": "https://www.fundsyes.com/Fund/Company.aspx"
+		},
+		{
+			"title": "精選基金",
+			"url": "https://www.fundsyes.com/Tool/SuggestionInfo.aspx?GUID=711d20a9-6a03-45e2-b98e-c0a8d01b9450"
+		},
+		{
+			"title": "投資推薦",
+			"url": "https://www.fundsyes.com/Tool/SuggestionList.aspx"
+		}
+	],
+	"客戶支援":
+	[
+		{
+			"title": "聯絡我們",
+			"url": "https://www.fundsyes.com/Service/Contact.aspx"
+		},
+		{
+			"title": "常見問題",
+			"url": "https://www.fundsyes.com/Service/FAQ.aspx"
+		},
+		{
+			"title": "索取資料",
+			"url": "https://www.fundsyes.com/Service/Claim.aspx"
+		}
+	],
+	"關於我們":
+	[
+		{
+			"title": "公司簡介",
+			"url": "/NoviceGuide/CompanyProfile"
+		},
+		{
+			"title": "服務介紹",
+			"url": "/NoviceGuide/ServiceIntroduction"
+		}
+	],
+	"line2": []
+}
