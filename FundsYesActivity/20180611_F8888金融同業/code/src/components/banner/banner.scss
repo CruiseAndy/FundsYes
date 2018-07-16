@@ -1,0 +1,31 @@
+/* 
+ * Created by kevin in 2018/03/19
+ */
+
+.banner-main {
+    a {
+        text-decoration: none;
+    }
+    img {
+        width: 100%;
+    }
+    .web-mode {
+        display: block;
+    }
+
+    .mobile-mode {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .banner-main {
+        .web-mode {
+            display: none;
+        }
+    
+        .mobile-mode {
+            display: block;
+        }
+    }
+}

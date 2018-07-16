@@ -1,0 +1,185 @@
+{
+    "section01": {
+        "brand01": {
+            "name": "貝萊德",
+            "imgName": "brand_01.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=037"
+        },
+        "brand02": {
+            "name": "安聯",
+            "imgName": "brand_02.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=Allianz_Lxb"
+        },
+        "brand33": {
+            "name": "摩根",
+            "imgName": "brand_33.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=046"
+        },
+        "brand03": {
+            "name": "景順",
+            "imgName": "brand_03.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=043"
+        }
+    },
+    "section02": {
+        "brand04": {
+            "name": "施羅德",
+            "imgName": "brand_04.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=schroders"
+        },
+        "brand05": {
+            "name": "安本",
+            "imgName": "brand_05.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=aberdeen"
+        },
+        "brand06": {
+            "name": "瑞萬通博",
+            "imgName": "brand_06.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=036"
+        },
+        "brand07": {
+            "name": "安盛",
+            "imgName": "brand_07.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=AXAG"
+        }
+    },
+    "section03": {
+        "brand08": {
+            "name": "法國巴黎",
+            "imgName": "brand_08.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=bnp"
+        },
+        "brand09": {
+            "name": "資本集團",
+            "imgName": "brand_09.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=CI"
+        },
+        "brand10": {
+            "name": "凱敏雅克",
+            "imgName": "brand_10.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=038"
+        },
+        "brand11": {
+            "name": "德意志",
+            "imgName": "brand_11.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=DWS"
+        }
+    },
+    "section04": {
+        "brand12": {
+            "name": "瀚亞",
+            "imgName": "brand_12.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=Eastspring_Sgp"
+        },
+        "brand13": {
+            "name": "愛德蒙得洛希爾",
+            "imgName": "brand_13.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=edmond_F"
+        },
+        "brand14": {
+            "name": "歐義銳榮",
+            "imgName": "brand_14.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=eurizon"
+        },
+        "brand15": {
+            "name": "首域",
+            "imgName": "brand_15.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=FirstState"
+        }
+    },
+    "section05": {
+        "brand16": {
+            "name": "天達",
+            "imgName": "brand_16.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=investec"
+        },
+        "brand17": {
+            "name": "駿利",
+            "imgName": "brand_17.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=janus"
+        },
+        "brand18": {
+            "name": "木星",
+            "imgName": "brand_18.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=JupiterG"
+        },
+        "brand19": {
+            "name": "瑞士寶盛GAM",
+            "imgName": "brand_19.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=040"
+        }
+    },
+    "section06": {
+        "brand20": {
+            "name": "KBI全球投資",
+            "imgName": "brand_20.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=041"
+        },
+        "brand21": {
+            "name": "宏利環球",
+            "imgName": "brand_21.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=manulife"
+        },
+        "brand22": {
+            "name": "NN",
+            "imgName": "brand_22.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=ing"
+        },
+        "brand23": {
+            "name": "法儲銀",
+            "imgName": "brand_23.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=natixis_Dbl"
+        }
+    },
+    "section07": {
+        "brand24": {
+            "name": "路博邁",
+            "imgName": "brand_24.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=042"
+        },
+        "brand25": {
+            "name": "百達",
+            "imgName": "brand_25.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=pictet"
+        },
+        "brand26": {
+            "name": "柏瑞",
+            "imgName": "brand_26.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=pinebridge"
+        },
+        "brand27": {
+            "name": "鋒裕匯理",
+            "imgName": "brand_27.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=amundi"
+        }
+    },
+    "section08": {
+        "brand28": {
+            "name": "荷寶",
+            "imgName": "brand_28.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=robeco"
+        },
+        "brand29": {
+            "name": "羅素",
+            "imgName": "brand_29.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=russell"
+        },
+        "brand30": {
+            "name": "天利",
+            "imgName": "brand_30.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=threadneedle"
+        },
+        "brand31": {
+            "name": "普信",
+            "imgName": "brand_31.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=039"
+        }
+    },
+    "section09": {
+        "brand32": {
+            "name": "瑞銀",
+            "imgName": "brand_32.png",
+            "linkUrl": "https://www.fundsyes.com/Fund/Catalogue.aspx?S3=all&S2=ubs"
+        }
+    }
+}
