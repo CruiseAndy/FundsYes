@@ -2,14 +2,14 @@
 const webpack = require('webpack');
 const ParallelUglifyPlugin = require('webpack-parallel-uglify-plugin');	// 程式碼壓縮
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+// const CleanWebpackPlugin = require('clean-webpack-plugin');
 // const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 	template: `${__dirname}/src/index.html`,
 	filename: 'index.html',
 	inject: 'body',
 });
-const commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common');
+// const commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common');
 
 // 檔案起始點從 entry 進入，也可以是多個檔案。output 是放入產生出來的結果的相關參數。
 // loaders 則是放欲使用的 loaders，在這邊是使用 babel-loader 將所有 .js（這邊用到正則式）相關檔案轉譯成瀏覽器可以閱讀的 JavaScript。
@@ -25,13 +25,14 @@ module.exports = {
 		publicPath: '',
 	},
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.js?$/,
-				exclude: /node_modules/,
+				exclude: /(node_modules|bower_components)/,
 				loader: 'babel-loader',
-				query: {
-					presets: ['es2015', 'react', 'stage-1'],
+				options: {
+					presets: ["@babel/preset-env","@babel/preset-react"],
+					plugins: ['@babel/plugin-proposal-object-rest-spread']
 				},
 			},
 			{
@@ -49,13 +50,14 @@ module.exports = {
 			},
 			{
 				test: /\.scss/,
-				use: [{
-					loader: 'style-loader'
-				}, {
-					loader: 'css-loader'
-				}, {
-					loader: 'sass-loader'
-				}]
+				use: ['style-loader', 'css-loader', 'sass-loader'],
+				// use: [{
+				// 	loader: 'style-loader'
+				// }, {
+				// 	loader: 'css-loader'
+				// }, {
+				// 	loader: 'sass-loader'
+				// }]
 			},
 			{
 				test:/\.json$/,
@@ -73,8 +75,8 @@ module.exports = {
 	devtool: 'source-map',
 	plugins: [
 		HTMLWebpackPluginConfig,
-		new CleanWebpackPlugin(['dist']),
-		commonsPlugin,
+	// 	new CleanWebpackPlugin(['dist']),
+	// 	commonsPlugin,
 	],
 	watch: true,	//Add a delay before rebuilding once the first file changed.
 	watchOptions: {
